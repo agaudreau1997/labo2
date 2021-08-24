@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../principal.css">
+</head>
+
+<body>
+    <h1>Démonstration sur les formulaires</h1>
+    <form action="http://www.iro.umontreal.ca/~pilona/cgi-bin/pilona.cgi" method="POST">
+        <span>nom </span><input type="text" name="nom" id="nom"> <br>
+        <span>code permanent</span><input type="password" name="code" id="code"><br>
+        <span>couleur</span> 
+        <select name="couleur" size="1">
+            <option>bleu</option>
+            <option>blanc</option>
+            <option>rouge</option>
+        </select><br>
+        <span>Langue préféré</span>    <label for="FR">Francais</label> <input type="radio" id="FR" name="LanguePref" value="Francais">
+            <label for="EN">Englais</label> <input type="radio" id="EN" name="LanguePref" value="Englais">
+        <br>
+        <span>Jours</span>  <label for="lundi">Lundi</label><input type="checkbox" name="Jours" value="Lundi" id="lundi">
+                            <label for="mardi">mardi</label><input type="checkbox" name="Jours" value="mardi" id="mardi">
+                            <label for="mercredi">mercredi</label><input type="checkbox" name="Jours" value="mercredi" id="mercredi">
+                            <label for="jeudi">jeudi</label><input type="checkbox" name="Jours" value="jeudi" id="jeudi">
+                            <label for="vendredi">vendredi</label><input type="checkbox" name="Jours" value="vendredi" id="vendredi">
+                            <label for="samedi">samedi</label><input type="checkbox" name="Jours" value="samedi" id="samedi">
+                            <label for="dimance">dimance</label><input type="checkbox" name="Jours" value="dimance" id="dimance">
+                            <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+
+</html>

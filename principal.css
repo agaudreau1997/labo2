@@ -1,3 +1,19 @@
 p {
     background-color: lime;
 }
+fieldset{
+    border-radius: 5px;
+    padding: 10px;
+}
+#client{
+    display: inline;
+    width: 48%;
+}
+#livraison{
+    display: inline;
+    width: 48%;
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
