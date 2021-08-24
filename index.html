@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+    <p>Sup</p>
+    <p>lul</p>
+    <form action="http://www.iro.umontreal.ca/~pilona/cgi-bin/pilona.cgi" method="POST">
+        nom: <input type="text" name="nom" id="nom"><br>
+        code: <input type="password" name="pwd"><br>
+        code postal: <input name="code postal" type="text" placeholder="A1A 1A1" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]">
+        <br>
+        <select name="select" size="1" multiple>
+            <option>yo</option>
+            <option>sup</option>
+            <option>waddup</option>
+        </select><br>
+        <input list="langue" name="langue">
+        <datalist id="langue">
+            <option >francais</option>
+            <option >anglais</option>
+        </datalist><br>
+        langue de pref: 
+        FR <input type="radio" name="languePref" value="Francais" checked> EN <input type="radio" name="languePref" value="Anglais"> 
+        <br>
+        Langue parlé: FR <input type="checkbox" name="LangueParle" value="Francais"> EN <input type="checkbox" name="LangueParle" value="Anglais"> <br>
+        comments: <br>
+        <textarea name="commentaire" id="" cols="60" rows="4"></textarea><br>
+        
+        
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
